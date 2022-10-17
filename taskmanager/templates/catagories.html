@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3 class="light-green-text text-darken-4 center_align">Catagories</h3>
+
+<div class="row">
+    <div class="co s12 center-align">
+        <a href="{{ url_for('add_category') }}" class="btn-large light-green darken-2">
+            Add Category <i class="material-icons">add</i>
+        </a>
+    </div>
+</div>
+
+{% endblock %}
